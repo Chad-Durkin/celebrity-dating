@@ -57,35 +57,43 @@ $(document).ready(function() {
     {
       if(age === "young" && hair === "bald")
       {
-        $(".youngBaldFemale").show();
+        $(".pics").hide();
+        $("#youngBaldFemale").show();
       }
       if(age === "old" && hair === "bald")
       {
-        $(".youngBaldFemale").show();
+        $(".pics").hide();
+        $("#youngBaldFemale").show();
       }
       if(age === "young" && hair === "short")
       {
-        $(".youngBaldFemale").show();
+        $(".pics").hide();
+        $("#youngBaldFemale").show();
       }
       if(age === "old" && hair === "short")
       {
-        $(".oldBaldFemale").show();
+        $(".pics").hide();
+        $("#oldBaldFemale").show();
       }
       if(age === "young" && hair === "mullet")
       {
-        $(".youngMulletFemale").show();
+        $(".pics").hide();
+        $("#youngMulletFemale").show();
       }
       if(age === "old" && hair === "mullet")
       {
-        $(".oldMulletFemale").show();
+        $(".pics").hide();
+        $("#oldMulletFemale").show();
       }
       if(age === "young" && hair === "long")
       {
-        $(".youngLongFemale").show();
+        $(".pics").hide();
+        $("#youngLongFemale").show();
       }
       if(age === "old" && hair === "long")
       {
-        $(".oldLongFemale").show();
+        $(".pics").hide();
+        $("#oldLongFemale").show();
       }
     }
 
