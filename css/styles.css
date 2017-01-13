@@ -1,4 +1,23 @@
+.jumbotron {
+  background-color: #FEF57A;
+  text-align: center;
+  color: #586789;
+}
+
 .pics {
   display: none;
   height: 500px;
+}
+
+body {
+  background-color: #586789;
+  color: #FEF57A;
+}
+
+.radio {
+  color: white;
+}
+
+button {
+  background-color: #FEF57A
 }
